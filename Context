@@ -1,0 +1,28 @@
+Here is the table for the annotations you provided:
+
+| **Annotation Name**        | **Where Used**                                            | **Default Methods/Values**                                                                                          |
+|-----------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `@Bean`                    | Method                                                   | `value = {}`, `name = {}`, `autowireCandidate = true`, `defaultCandidate = true`, `initMethod = ""`, `destroyMethod = "(inferred)"` |
+| `@ComponentScan`           | Type                                                     | `value = {}`, `basePackages = {}`, `basePackageClasses = {}`, `nameGenerator = BeanNameGenerator.class`, `lazyInit = false` |
+| `@ComponentScans`          | Type                                                     | `value = ComponentScan[]`                                                                                           |
+| `@Conditional`             | Type, Method                                             | `value = {Class<? extends Condition>[]}`                                                                            |
+| `@Configuration`           | Type                                                     | `value = ""`, `proxyBeanMethods = true`, `enforceUniqueMethods = true`                                              |
+| `@DependsOn`               | Type, Method                                             | `value = {}`                                                                                                        |
+| `@Description`             | Type, Method                                             | `value = ""`                                                                                                       |
+| `@EnableAspectJAutoProxy`  | Type                                                     | `proxyTargetClass = false`, `exposeProxy = false`                                                                   |
+| `@EnableLoadTimeWeaving`   | Type                                                     | `aspectjWeaving = AspectJWeaving.AUTODETECT`                                                                        |
+| `@EnableMBeanExport`       | Type                                                     | `defaultDomain = ""`, `server = ""`, `registration = RegistrationPolicy.FAIL_ON_EXISTING`                           |
+| `@Fallback`                | Type, Method                                             | No default values                                                                                                   |
+| `@Import`                  | Type                                                     | `value = {Class<?>[]}`                                                                                              |
+| `@ImportResource`          | Type                                                     | `value = {}`, `locations = {}`, `reader = BeanDefinitionReader.class`                                               |
+| `@ImportRuntimeHints`      | Type, Method                                             | `value = {Class<? extends RuntimeHintsRegistrar>[]}`                                                                |
+| `@Lazy`                    | Type, Method, Constructor, Parameter, Field              | `value = true`                                                                                                      |
+| `@Primary`                 | Type, Method                                             | No default values                                                                                                   |
+| `@Profile`                 | Type, Method                                             | `value = {}`                                                                                                        |
+| `@PropertySource`          | Type                                                     | `name = ""`, `value = {}`, `ignoreResourceNotFound = false`, `encoding = ""`, `factory = PropertySourceFactory.class` |
+| `@PropertySources`         | Type                                                     | `value = PropertySource[]`                                                                                          |
+| `@ReflectiveScan`          | Type                                                     | `value = {}`, `basePackages = {}`, `basePackageClasses = {}`                                                        |
+| `@Role`                    | Type, Method                                             | `value = int`                                                                                                       |
+| `@Scope`                   | Type, Method                                             | `value = ""`, `scopeName = ""`, `proxyMode = ScopedProxyMode.DEFAULT`                                               |
+
+Let me know if you want further details or additional formatting!
